@@ -1,0 +1,14 @@
+nopassword
+
+
+create database ah1db;
+use ah1db;	
+
+create table customers(cid int primary key,
+						cname varchar(10),
+						email varchar(15),
+						phone long,
+						city varchar(15),
+						status varchar(10));
+						
+select * from  customers;
