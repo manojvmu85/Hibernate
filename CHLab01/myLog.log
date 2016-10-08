@@ -1,0 +1,181 @@
+INFO - Hibernate 3.1.3
+INFO - hibernate.properties not found
+INFO - using CGLIB reflection optimizer
+INFO - using JDK 1.4 java.sql.Timestamp handling
+INFO - configuring from resource: /hibernate.cfg.xml
+INFO - Configuration resource: /hibernate.cfg.xml
+DEBUG - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+DEBUG - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+DEBUG - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+DEBUG - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+DEBUG - hibernate.connection.url=jdbc:mysql://localhost:3306/Hbernate_Schema
+DEBUG - hibernate.connection.username=root
+DEBUG - hibernate.connection.password=password
+DEBUG - show_sql=true
+DEBUG - dialect=org.hibernate.dialect.MySQLDialect
+DEBUG - hibernate.hbm2ddl.auto=update
+DEBUG - null<-org.dom4j.tree.DefaultAttribute@1ded0fd [Attribute: name resource value "com/prabhakar/hibernate/Customer.hbm.xml"]
+INFO - Reading mappings from resource: com/prabhakar/hibernate/Customer.hbm.xml
+DEBUG - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+DEBUG - recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+DEBUG - located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+INFO - Mapping class: com.prabhakar.hibernate.Customer -> customers
+DEBUG - Mapped property: cid -> cid
+DEBUG - Mapped property: cname -> cname
+DEBUG - Mapped property: email -> email
+DEBUG - Mapped property: phone -> phone
+DEBUG - Mapped property: city -> city
+DEBUG - Mapped property: status -> status
+INFO - Configured SessionFactory: null
+DEBUG - properties: {hibernate.connection.password=password, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\java\jdk1.6.0_20\jre\bin, java.vm.version=16.3-b01, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Manoj\Workspace\Hibernate_WS\CHLab01, java.runtime.version=1.6.0_20-b02, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\java\jdk1.6.0_20\jre\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\manoj\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows NT (unknown), sun.jnu.encoding=Cp1252, java.library.path=C:\java\jdk1.6.0_20\jre\bin;.;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/java/jdk1.6.0_20/bin/../jre/bin/client;C:/java/jdk1.6.0_20/bin/../jre/bin;C:/java/jdk1.6.0_20/bin/../jre/lib/i386;C:\java\jdk1.6.0_20\bin;C:\java\jdk1.6.0_20\jre\bin;;C:\Manoj\Software\Working Software\eclipse-jee-juno-SR1-win32\eclipse;, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.2, user.home=C:\Users\manoj, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.6, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, user.name=manoj, java.class.path=C:\Manoj\Workspace\Hibernate_WS\CHLab01\bin;C:\Manoj\Software\Working Software\Hibernate 3.1\mysql.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\antlr-2.7.6.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\antlr-2.7.6rc1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\asm.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\asm-attrs.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\c3p0-0.9.0.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\c3p0-0.9.1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\cglib-2.1.3.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\commons-collections-2.1.1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\commons-logging-1.0.4.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\dom4j-1.6.1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\ehcache-1.2.3.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\ejb3-persistence.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate3.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-annotations.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-commons-annotations.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-entitymanager.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-validator.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jaas.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\javassist.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jaxen-1.1-beta-7.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jboss-archive-browsing.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jboss-cache.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jdbc2_0-stdext.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jgroups-2.2.8.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jta.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\log4j-1.2.11.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\xerces-2.6.2.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\xml-apis.jar, hibernate.show_sql=true, java.vm.specification.version=1.0, java.home=C:\java\jdk1.6.0_20\jre, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/Hbernate_Schema, user.language=en, java.specification.vendor=Sun Microsystems Inc., awt.toolkit=sun.awt.windows.WToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, sharing, java.version=1.6.0_20, java.ext.dirs=C:\java\jdk1.6.0_20\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\java\jdk1.6.0_20\jre\lib\resources.jar;C:\java\jdk1.6.0_20\jre\lib\rt.jar;C:\java\jdk1.6.0_20\jre\lib\sunrsasign.jar;C:\java\jdk1.6.0_20\jre\lib\jsse.jar;C:\java\jdk1.6.0_20\jre\lib\jce.jar;C:\java\jdk1.6.0_20\jre\lib\charsets.jar;C:\java\jdk1.6.0_20\jre\classes, java.vendor=Sun Microsystems Inc., file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+DEBUG - Preparing to build session factory with filters : {}
+DEBUG - processing extends queue
+DEBUG - processing collection mappings
+DEBUG - processing native query and ResultSetMapping mappings
+DEBUG - processing association property references
+DEBUG - processing foreign key constraints
+INFO - Using Hibernate built-in connection pool (not for production use!)
+INFO - Hibernate connection pool size: 20
+INFO - autocommit mode: false
+INFO - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/Hbernate_Schema
+INFO - connection properties: {user=root, password=password}
+DEBUG - total checked-out connections: 0
+DEBUG - opening new JDBC connection
+WARN - Could not obtain connection metadata
+java.sql.SQLException: Syntax error or access violation,  message from server: "Unknown database 'hbernate_schema'"
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1977)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1900)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:2471)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:813)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:1771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:440)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:400)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:154)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:72)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:1881)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1174)
+	at com.prabhakar.hibernate.Client.main(Client.java:19)
+INFO - Using dialect: org.hibernate.dialect.MySQLDialect
+INFO - Using default transaction strategy (direct JDBC transactions)
+INFO - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO - Automatic flush during beforeCompletion(): disabled
+INFO - Automatic session close at end of transaction: disabled
+INFO - Scrollable result sets: disabled
+DEBUG - Wrap result sets: disabled
+INFO - JDBC3 getGeneratedKeys(): disabled
+INFO - Connection release mode: auto
+INFO - Maximum outer join fetch depth: 2
+INFO - Default batch fetch size: 1
+INFO - Generate SQL with comments: disabled
+INFO - Order SQL updates by primary key: disabled
+INFO - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO - Using ASTQueryTranslatorFactory
+INFO - Query language substitutions: {}
+INFO - Second-level cache: enabled
+INFO - Query cache: disabled
+INFO - Cache provider: org.hibernate.cache.EhCacheProvider
+INFO - Optimize cache for minimal puts: disabled
+INFO - Structured second-level cache entries: disabled
+DEBUG - Using dialect defined converter
+INFO - Echoing all SQL to stdout
+INFO - Statistics: disabled
+INFO - Deleted entity synthetic identifier rollback: disabled
+INFO - Default entity-mode: pojo
+INFO - building session factory
+DEBUG - Session factory constructed with filter configurations : {}
+DEBUG - instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=password, sun.boot.library.path=C:\java\jdk1.6.0_20\jre\bin, java.vm.version=16.3-b01, hibernate.connection.username=root, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Manoj\Workspace\Hibernate_WS\CHLab01, java.runtime.version=1.6.0_20-b02, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\java\jdk1.6.0_20\jre\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\manoj\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows NT (unknown), sun.jnu.encoding=Cp1252, java.library.path=C:\java\jdk1.6.0_20\jre\bin;.;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/java/jdk1.6.0_20/bin/../jre/bin/client;C:/java/jdk1.6.0_20/bin/../jre/bin;C:/java/jdk1.6.0_20/bin/../jre/lib/i386;C:\java\jdk1.6.0_20\bin;C:\java\jdk1.6.0_20\jre\bin;;C:\Manoj\Software\Working Software\eclipse-jee-juno-SR1-win32\eclipse;, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.2, user.home=C:\Users\manoj, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.6, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=C:\Manoj\Workspace\Hibernate_WS\CHLab01\bin;C:\Manoj\Software\Working Software\Hibernate 3.1\mysql.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\antlr-2.7.6.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\antlr-2.7.6rc1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\asm.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\asm-attrs.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\c3p0-0.9.0.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\c3p0-0.9.1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\cglib-2.1.3.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\commons-collections-2.1.1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\commons-logging-1.0.4.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\dom4j-1.6.1.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\ehcache-1.2.3.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\ejb3-persistence.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate3.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-annotations.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-commons-annotations.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-entitymanager.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\hibernate-validator.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jaas.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\javassist.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jaxen-1.1-beta-7.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jboss-archive-browsing.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jboss-cache.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jdbc2_0-stdext.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jgroups-2.2.8.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\jta.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\log4j-1.2.11.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\xerces-2.6.2.jar;C:\Manoj\Software\Working Software\Hibernate 3.2\xml-apis.jar, user.name=manoj, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.arch.data.model=32, java.home=C:\java\jdk1.6.0_20\jre, hibernate.connection.url=jdbc:mysql://localhost:3306/Hbernate_Schema, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Sun Microsystems Inc., user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, sharing, hibernate.cglib.use_reflection_optimizer=true, java.version=1.6.0_20, java.ext.dirs=C:\java\jdk1.6.0_20\jre\lib\ext;C:\windows\Sun\Java\lib\ext, sun.boot.class.path=C:\java\jdk1.6.0_20\jre\lib\resources.jar;C:\java\jdk1.6.0_20\jre\lib\rt.jar;C:\java\jdk1.6.0_20\jre\lib\sunrsasign.jar;C:\java\jdk1.6.0_20\jre\lib\jsse.jar;C:\java\jdk1.6.0_20\jre\lib\jce.jar;C:\java\jdk1.6.0_20\jre\lib\charsets.jar;C:\java\jdk1.6.0_20\jre\classes, java.vendor=Sun Microsystems Inc., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dialect=org.hibernate.dialect.MySQLDialect}
+DEBUG - Creating new CacheManager with default config
+DEBUG - Configuring ehcache from classpath.
+WARN - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Manoj/Software/Working%20Software/Hibernate%203.2/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+DEBUG - Configuring ehcache from URL: jar:file:/C:/Manoj/Software/Working%20Software/Hibernate%203.2/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+DEBUG - Configuring ehcache from InputStream
+DEBUG - Disk Store Path: C:\Users\manoj\AppData\Local\Temp\
+DEBUG - No CacheManagerEventListenerFactory class specified. Skipping...
+DEBUG - No CachePeerListenerFactoryConfiguration specified. Not configuring a CacheManagerPeerListener.
+DEBUG - No CachePeerProviderFactoryConfiguration specified. Not configuring a CacheManagerPeerProvider.
+DEBUG - No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG - Static SQL for entity: com.prabhakar.hibernate.Customer
+DEBUG -  Version select: select cid from customers where cid =?
+DEBUG -  Snapshot select: select customer_.cid, customer_.cname as cname0_, customer_.email as email0_, customer_.phone as phone0_, customer_.city as city0_, customer_.status as status0_ from customers customer_ where customer_.cid=?
+DEBUG -  Insert 0: insert into customers (cname, email, phone, city, status, cid) values (?, ?, ?, ?, ?, ?)
+DEBUG -  Update 0: update customers set cname=?, email=?, phone=?, city=?, status=? where cid=?
+DEBUG -  Delete 0: delete from customers where cid=?
+DEBUG - Static select for entity com.prabhakar.hibernate.Customer: select customer0_.cid as cid0_0_, customer0_.cname as cname0_0_, customer0_.email as email0_0_, customer0_.phone as phone0_0_, customer0_.city as city0_0_, customer0_.status as status0_0_ from customers customer0_ where customer0_.cid=?
+DEBUG - Static select for entity com.prabhakar.hibernate.Customer: select customer0_.cid as cid0_0_, customer0_.cname as cname0_0_, customer0_.email as email0_0_, customer0_.phone as phone0_0_, customer0_.city as city0_0_, customer0_.status as status0_0_ from customers customer0_ where customer0_.cid=?
+DEBUG - Static select for entity com.prabhakar.hibernate.Customer: select customer0_.cid as cid0_0_, customer0_.cname as cname0_0_, customer0_.email as email0_0_, customer0_.phone as phone0_0_, customer0_.city as city0_0_, customer0_.status as status0_0_ from customers customer0_ where customer0_.cid=? for update
+DEBUG - Static select for entity com.prabhakar.hibernate.Customer: select customer0_.cid as cid0_0_, customer0_.cname as cname0_0_, customer0_.email as email0_0_, customer0_.phone as phone0_0_, customer0_.city as city0_0_, customer0_.status as status0_0_ from customers customer0_ where customer0_.cid=? for update
+DEBUG - Static select for action ACTION_MERGE on entity com.prabhakar.hibernate.Customer: select customer0_.cid as cid0_0_, customer0_.cname as cname0_0_, customer0_.email as email0_0_, customer0_.phone as phone0_0_, customer0_.city as city0_0_, customer0_.status as status0_0_ from customers customer0_ where customer0_.cid=?
+DEBUG - Static select for action ACTION_REFRESH on entity com.prabhakar.hibernate.Customer: select customer0_.cid as cid0_0_, customer0_.cname as cname0_0_, customer0_.email as email0_0_, customer0_.phone as phone0_0_, customer0_.city as city0_0_, customer0_.status as status0_0_ from customers customer0_ where customer0_.cid=?
+DEBUG - initializing class SessionFactoryObjectFactory
+DEBUG - registered: 402882894ebb6c23014ebb6c27640000 (unnamed)
+INFO - Not binding factory to JNDI, no JNDI name configured
+DEBUG - instantiated session factory
+INFO - Running hbm2ddl schema update
+INFO - fetching database metadata
+DEBUG - total checked-out connections: 0
+DEBUG - opening new JDBC connection
+ERROR - could not get database metadata
+java.sql.SQLException: Syntax error or access violation,  message from server: "Unknown database 'hbernate_schema'"
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1977)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1900)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:2471)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:813)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:1771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:440)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:400)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:154)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:27)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:127)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:296)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1176)
+	at com.prabhakar.hibernate.Client.main(Client.java:19)
+ERROR - could not complete schema update
+java.sql.SQLException: Syntax error or access violation,  message from server: "Unknown database 'hbernate_schema'"
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1977)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1900)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:2471)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:813)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:1771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:440)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:400)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:154)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:27)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:127)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:296)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1176)
+	at com.prabhakar.hibernate.Client.main(Client.java:19)
+DEBUG - Checking 0 named HQL queries
+DEBUG - Checking 0 named SQL queries
+DEBUG - opened session at timestamp: 5888669713575936
+DEBUG - begin
+DEBUG - opening JDBC connection
+DEBUG - total checked-out connections: 0
+DEBUG - opening new JDBC connection
+DEBUG - Cannot open connection [???]
+java.sql.SQLException: Syntax error or access violation,  message from server: "Unknown database 'hbernate_schema'"
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1977)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:1900)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:2471)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:813)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:1771)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:440)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:400)
+	at java.sql.DriverManager.getConnection(DriverManager.java:582)
+	at java.sql.DriverManager.getConnection(DriverManager.java:154)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.jdbc.ConnectionManager.openConnection(ConnectionManager.java:417)
+	at org.hibernate.jdbc.ConnectionManager.getConnection(ConnectionManager.java:144)
+	at org.hibernate.jdbc.JDBCContext.connection(JDBCContext.java:129)
+	at org.hibernate.transaction.JDBCTransaction.begin(JDBCTransaction.java:57)
+	at org.hibernate.impl.SessionImpl.beginTransaction(SessionImpl.java:1290)
+	at com.prabhakar.hibernate.Client.main(Client.java:21)
+WARN - SQL Error: 1049, SQLState: 42000
+ERROR - Syntax error or access violation,  message from server: "Unknown database 'hbernate_schema'"
